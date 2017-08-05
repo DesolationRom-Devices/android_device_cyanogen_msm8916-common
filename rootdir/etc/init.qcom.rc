@@ -471,3 +471,7 @@ service wcnss-service /system/bin/wcnss_service
     user system
     group system wifi radio
     oneshot
+
+service shoaib-tuner /system/bin/sh /system/etc/init.shoaib.sh
+    disabled
+    oneshot
